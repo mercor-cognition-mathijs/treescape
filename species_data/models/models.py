@@ -23,11 +23,11 @@ from .categories import (
     # FamilyEcologicalRole,
     # GenusEcologicalRole,
     SpeciesEcologicalRole,
-    SoilPreference,
+    WRBReferenceGroup,
+    WRBQualifier,
     SpeciesPropagationMethod,
-    # FamilySoilPreference,
-    # GenusSoilPreference,
-    SpeciesSoilPreference,
+    SpeciesWRBReferenceGroup,
+    SpeciesWRBQualifier,
 )
 
 
@@ -93,9 +93,10 @@ class SpeciesProperties(PlantPropertiesBase):
     ecological_roles = models.ManyToManyField(
         EcologicalRole, through=SpeciesEcologicalRole
     )
-    soil_preferences = models.ManyToManyField(
-        SoilPreference, through=SpeciesSoilPreference
+    wrb_reference_groups = models.ManyToManyField(
+        WRBReferenceGroup, through=SpeciesWRBReferenceGroup
     )
+    wrb_qualifiers = models.ManyToManyField(WRBQualifier, through=SpeciesWRBQualifier)
     propagation_methods = models.ManyToManyField(
         PropagationMethod, through=SpeciesPropagationMethod
     )

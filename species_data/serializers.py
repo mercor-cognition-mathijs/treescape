@@ -9,7 +9,8 @@ from .models import (
     GrowthHabit,
     HumanUse,
     EcologicalRole,
-    SoilPreference,
+    WRBReferenceGroup,
+    WRBQualifier,
     PropagationMethod,
     Source,
 )
@@ -95,9 +96,17 @@ class EcologicalRoleSerializer(serializers.HyperlinkedModelSerializer):
         extra_kwargs = {"url": {"lookup_field": "slug"}}
 
 
-class SoilPreferenceSerializer(serializers.HyperlinkedModelSerializer):
+class WRBReferenceGroupSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
-        model = SoilPreference
+        model = WRBReferenceGroup
+        fields = "__all__"
+        lookup_field = "slug"
+        extra_kwargs = {"url": {"lookup_field": "slug"}}
+
+
+class WRBQualifierSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = WRBQualifier
         fields = "__all__"
         lookup_field = "slug"
         extra_kwargs = {"url": {"lookup_field": "slug"}}
@@ -143,7 +152,8 @@ class SpeciesPropertiesSerializer(serializers.ModelSerializer):
             "growth_habits",
             "human_uses",
             "ecological_roles",
-            "soil_preferences",
+            "wrb_reference_groups",
+            "wrb_qualifiers",
             "propagation_methods",
         ]
 
@@ -178,9 +188,15 @@ class SpeciesPropertiesSerializer(serializers.ModelSerializer):
         read_only=True,
         lookup_field="slug",
     )
-    soil_preferences = serializers.HyperlinkedRelatedField(
+    wrb_reference_groups = serializers.HyperlinkedRelatedField(
         many=True,
-        view_name="soilpreference-detail",
+        view_name="wrbreferencegroup-detail",
+        read_only=True,
+        lookup_field="slug",
+    )
+    wrb_qualifiers = serializers.HyperlinkedRelatedField(
+        many=True,
+        view_name="wrbqualifier-detail",
         read_only=True,
         lookup_field="slug",
     )

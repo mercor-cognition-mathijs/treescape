@@ -10,7 +10,7 @@ from species_data.models.categories import (
     EcologicalRole,
     GrowthHabit,
     HumanUse,
-    SoilPreference,
+    WRBReferenceGroup,
 )
 from species_data.models.models import SpeciesProperties
 
@@ -55,7 +55,10 @@ class EnrichSpeciesDataTest(TestCase):
                     "shade-provision",
                 ],
             },
-            "soil_preferences": {"confidence": 0.9, "values": ["clayey", "sandy"]},
+            "wrb_reference_groups": {
+                "confidence": 0.9,
+                "values": ["cambisol", "arenosol"],
+            },
             "height": {
                 "confidence": 0.1,
                 "minimum": 25,
@@ -68,33 +71,35 @@ class EnrichSpeciesDataTest(TestCase):
 
         # Use monkey patching to create a mock that includes citations
         original_call = FakeListChatModel._call
-        
+
         # Override the _call method to include citations in the response
         def _patched_call(self, messages, stop=None, run_manager=None, **kwargs):
             response = original_call(self, messages, stop, run_manager, **kwargs)
             # Return the modified message with citations
             return response
-            
+
         # Create a mock for _generate method that adds citations
         def _patched_generate(self, messages, stop=None, **kwargs):
             from langchain_core.messages import AIMessage
             from langchain_core.outputs import ChatGeneration, ChatResult
-            
+
             response = self._call(messages, stop, **kwargs)
             message = AIMessage(
                 content=response,
-                additional_kwargs={"citations": ["https://example.org/1", "https://example.org/2"]}
+                additional_kwargs={
+                    "citations": ["https://example.org/1", "https://example.org/2"]
+                },
             )
             generation = ChatGeneration(message=message)
             return ChatResult(generations=[generation])
-        
+
         # Apply our patches
         FakeListChatModel._call = _patched_call
         FakeListChatModel._generate = _patched_generate
-        
+
         # Create our fake LLM
         fake_llm = FakeListChatModel(responses=[response_obj.json()])
-        
+
         config = EnrichmentConfig(
             llm=fake_llm,
             fallback_llm=fake_llm,
@@ -140,15 +145,17 @@ class EnrichSpeciesDataTest(TestCase):
             ),
         )
         self.assertQuerysetEqual(
-            properties.soil_preferences.all(),
-            SoilPreference.objects.filter(slug__in=["clayey", "sandy"]),
+            properties.wrb_reference_groups.all(),
+            WRBReferenceGroup.objects.filter(slug__in=["cambisol", "arenosol"]),
         )
         # Test sources and confidence on Through
         self.assertTrue(properties.speciesgrowthhabit_set.first().sources.exists())  # pyright: ignore reportAttributeAccessIssue
         self.assertTrue(properties.speciesclimatezone_set.first().sources.exists())  # pyright: ignore reportAttributeAccessIssue
         self.assertTrue(properties.specieshumanuse_set.first().sources.exists())  # pyright: ignore reportAttributeAccessIssue
         self.assertTrue(properties.speciesecologicalrole_set.first().sources.exists())  # pyright: ignore reportAttributeAccessIssue
-        self.assertTrue(properties.speciessoilpreference_set.first().sources.exists())  # pyright: ignore reportAttributeAccessIssue
+        self.assertTrue(
+            properties.specieswrbreferencegroup_set.first().sources.exists()
+        )  # pyright: ignore reportAttributeAccessIssue
 
         self.assertEqual(
             properties.speciesgrowthhabit_set.first().confidence,  # pyright: ignore reportAttributeAccessIssue
@@ -167,7 +174,7 @@ class EnrichSpeciesDataTest(TestCase):
             decimal.Decimal("0.8"),
         )
         self.assertEqual(
-            properties.speciessoilpreference_set.first().confidence,  # pyright: ignore reportAttributeAccessIssue
+            properties.specieswrbreferencegroup_set.first().confidence,  # pyright: ignore reportAttributeAccessIssue
             decimal.Decimal("0.9"),
         )
 

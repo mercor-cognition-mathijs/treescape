@@ -1,0 +1,2224 @@
+[
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 1,
+    "fields": {
+      "name": "Abruptic",
+      "slug": "abruptic",
+      "wrb_code": "ab",
+      "qualifier_type": "principal",
+      "description": "Having an abrupt textural change within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 2,
+    "fields": {
+      "name": "Aceric",
+      "slug": "aceric",
+      "wrb_code": "ae",
+      "qualifier_type": "principal",
+      "description": "Having a pH (H2O) of less than 5.0 throughout."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 3,
+    "fields": {
+      "name": "Albic",
+      "slug": "albic",
+      "wrb_code": "al",
+      "qualifier_type": "principal",
+      "description": "Having an albic horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 4,
+    "fields": {
+      "name": "Alic",
+      "slug": "alic",
+      "wrb_code": "ax",
+      "qualifier_type": "principal",
+      "description": "Having an argic horizon with a CEC (by 1 M NH4OAc) of less than 24 cmolc kg-1 clay."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 5,
+    "fields": {
+      "name": "Arenic",
+      "slug": "arenic",
+      "wrb_code": "ar",
+      "qualifier_type": "principal",
+      "description": "Having a texture of loamy sand or coarser in a layer ≥30 cm thick within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 6,
+    "fields": {
+      "name": "Calcic",
+      "slug": "calcic",
+      "wrb_code": "ca",
+      "qualifier_type": "principal",
+      "description": "Having a calcic horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 7,
+    "fields": {
+      "name": "Cambic",
+      "slug": "cambic",
+      "wrb_code": "cm",
+      "qualifier_type": "principal",
+      "description": "Having a cambic horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 8,
+    "fields": {
+      "name": "Chromic",
+      "slug": "chromic",
+      "wrb_code": "cr",
+      "qualifier_type": "principal",
+      "description": "Having within 100 cm of the soil surface a subsurface horizon with a Munsell hue redder than 7.5YR."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 9,
+    "fields": {
+      "name": "Clayic",
+      "slug": "clayic",
+      "wrb_code": "ce",
+      "qualifier_type": "principal",
+      "description": "Having ≥35% clay in a layer ≥30 cm thick within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 10,
+    "fields": {
+      "name": "Cutanic",
+      "slug": "cutanic",
+      "wrb_code": "cn",
+      "qualifier_type": "principal",
+      "description": "Having an argic horizon that has ≥5% (by volume, by thin section) clay coatings."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 11,
+    "fields": {
+      "name": "Densic",
+      "slug": "densic",
+      "wrb_code": "dn",
+      "qualifier_type": "principal",
+      "description": "Having a densic layer starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 12,
+    "fields": {
+      "name": "Dystric",
+      "slug": "dystric",
+      "wrb_code": "dy",
+      "qualifier_type": "principal",
+      "description": "Having a base saturation (by 1 M NH4OAc) of less than 50% in the major part of 20-100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 13,
+    "fields": {
+      "name": "Endogleyic",
+      "slug": "endogleyic",
+      "wrb_code": "eg",
+      "qualifier_type": "principal",
+      "description": "Having gleyic properties starting between 50 and 100 cm from the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 14,
+    "fields": {
+      "name": "Epigleyic",
+      "slug": "epigleyic",
+      "wrb_code": "gl",
+      "qualifier_type": "principal",
+      "description": "Having gleyic properties starting within 50 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 15,
+    "fields": {
+      "name": "Eutric",
+      "slug": "eutric",
+      "wrb_code": "eu",
+      "qualifier_type": "principal",
+      "description": "Having a base saturation (by 1 M NH4OAc) of 50% or more in the major part of 20-100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 16,
+    "fields": {
+      "name": "Ferric",
+      "slug": "ferric",
+      "wrb_code": "fr",
+      "qualifier_type": "principal",
+      "description": "Having a ferric horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 17,
+    "fields": {
+      "name": "Fluvic",
+      "slug": "fluvic",
+      "wrb_code": "fl",
+      "qualifier_type": "principal",
+      "description": "Having fluvic material starting within 25 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 18,
+    "fields": {
+      "name": "Geric",
+      "slug": "geric",
+      "wrb_code": "ge",
+      "qualifier_type": "principal",
+      "description": "Having a geric horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 19,
+    "fields": {
+      "name": "Gypsic",
+      "slug": "gypsic",
+      "wrb_code": "gy",
+      "qualifier_type": "principal",
+      "description": "Having a gypsic horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 20,
+    "fields": {
+      "name": "Haplic",
+      "slug": "haplic",
+      "wrb_code": "ha",
+      "qualifier_type": "principal",
+      "description": "Having a typical expression of certain features (default qualifier)."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 21,
+    "fields": {
+      "name": "Histic",
+      "slug": "histic",
+      "wrb_code": "hi",
+      "qualifier_type": "principal",
+      "description": "Having a histic horizon starting within 40 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 22,
+    "fields": {
+      "name": "Hortic",
+      "slug": "hortic",
+      "wrb_code": "ht",
+      "qualifier_type": "principal",
+      "description": "Having a hortic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 23,
+    "fields": {
+      "name": "Humic",
+      "slug": "humic",
+      "wrb_code": "hu",
+      "qualifier_type": "principal",
+      "description": "Having ≥1% organic carbon in the upper 100 cm of the soil."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 24,
+    "fields": {
+      "name": "Hydric",
+      "slug": "hydric",
+      "wrb_code": "hd",
+      "qualifier_type": "principal",
+      "description": "Having groundwater at ≤40 cm depth for more than 11 months per year."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 25,
+    "fields": {
+      "name": "Hyperalic",
+      "slug": "hyperalic",
+      "wrb_code": "qa",
+      "qualifier_type": "supplementary",
+      "description": "Having an argic horizon with a CEC (by 1 M NH4OAc) of less than 12 cmolc kg-1 clay."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 26,
+    "fields": {
+      "name": "Hyperartefactic",
+      "slug": "hyperartefactic",
+      "wrb_code": "qf",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥50% (by volume, by weighted average) artefacts in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 27,
+    "fields": {
+      "name": "Hypercalcic",
+      "slug": "hypercalcic",
+      "wrb_code": "qc",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥50% CaCO3 equivalent in the calcic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 28,
+    "fields": {
+      "name": "Hypereutric",
+      "slug": "hypereutric",
+      "wrb_code": "qe",
+      "qualifier_type": "supplementary",
+      "description": "Having a base saturation (by 1 M NH4OAc) of ≥75% in the major part of 20-100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 29,
+    "fields": {
+      "name": "Hypergypsic",
+      "slug": "hypergypsic",
+      "wrb_code": "qg",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥50% gypsum in the gypsic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 30,
+    "fields": {
+      "name": "Hyperhumic",
+      "slug": "hyperhumic",
+      "wrb_code": "qh",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥5% organic carbon in the upper 100 cm of the soil."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 31,
+    "fields": {
+      "name": "Hypernatric",
+      "slug": "hypernatric",
+      "wrb_code": "qn",
+      "qualifier_type": "supplementary",
+      "description": "Having an ESP of ≥50 in the natric horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 32,
+    "fields": {
+      "name": "Hypersalic",
+      "slug": "hypersalic",
+      "wrb_code": "qs",
+      "qualifier_type": "supplementary",
+      "description": "Having an ECe of ≥30 dS m-1 at 25°C in the salic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 33,
+    "fields": {
+      "name": "Hyperskeletic",
+      "slug": "hyperskeletic",
+      "wrb_code": "qk",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥90% (by volume, by weighted average) coarse fragments in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 34,
+    "fields": {
+      "name": "Hypertechnic",
+      "slug": "hypertechnic",
+      "wrb_code": "qt",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥50% (by volume, by weighted average) technic hard material in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 35,
+    "fields": {
+      "name": "Hypertoxic",
+      "slug": "hypertoxic",
+      "wrb_code": "qx",
+      "qualifier_type": "supplementary",
+      "description": "Having toxic concentrations of organic or inorganic substances other than Al, Fe, Na or salts."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 36,
+    "fields": {
+      "name": "Irragric",
+      "slug": "irragric",
+      "wrb_code": "ir",
+      "qualifier_type": "principal",
+      "description": "Having an irragric horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 37,
+    "fields": {
+      "name": "Laxic",
+      "slug": "laxic",
+      "wrb_code": "lx",
+      "qualifier_type": "principal",
+      "description": "Having an argic horizon with a CEC (by 1 M NH4OAc) of ≥24 cmolc kg-1 clay."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 38,
+    "fields": {
+      "name": "Leptic",
+      "slug": "leptic",
+      "wrb_code": "le",
+      "qualifier_type": "principal",
+      "description": "Having continuous rock starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 39,
+    "fields": {
+      "name": "Litic",
+      "slug": "litic",
+      "wrb_code": "li",
+      "qualifier_type": "principal",
+      "description": "Having continuous rock starting within 10 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 40,
+    "fields": {
+      "name": "Luvic",
+      "slug": "luvic",
+      "wrb_code": "lv",
+      "qualifier_type": "principal",
+      "description": "Having an argic horizon that has a CEC (by 1 M NH4OAc) of ≥24 cmolc kg-1 clay."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 41,
+    "fields": {
+      "name": "Magnesic",
+      "slug": "magnesic",
+      "wrb_code": "mg",
+      "qualifier_type": "principal",
+      "description": "Having ≥18 cmolc kg-1 exchangeable Mg plus a ratio of exchangeable Ca to exchangeable Mg of <1."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 42,
+    "fields": {
+      "name": "Manganiferric",
+      "slug": "manganiferric",
+      "wrb_code": "mf",
+      "qualifier_type": "principal",
+      "description": "Having a ferric horizon that contains Mn nodules or concretions."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 43,
+    "fields": {
+      "name": "Mazic",
+      "slug": "mazic",
+      "wrb_code": "mz",
+      "qualifier_type": "principal",
+      "description": "Having a massive structure and a bulk density of ≥1.4 g cm-3 in a layer ≥20 cm thick."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 44,
+    "fields": {
+      "name": "Melanic",
+      "slug": "melanic",
+      "wrb_code": "ml",
+      "qualifier_type": "principal",
+      "description": "Having a melanic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 45,
+    "fields": {
+      "name": "Mesotrophic",
+      "slug": "mesotrophic",
+      "wrb_code": "me",
+      "qualifier_type": "principal",
+      "description": "Having a base saturation (by 1 M NH4OAc) of 12-50% in the major part of 20-100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 46,
+    "fields": {
+      "name": "Mollic",
+      "slug": "mollic",
+      "wrb_code": "mo",
+      "qualifier_type": "principal",
+      "description": "Having a mollic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 47,
+    "fields": {
+      "name": "Natric",
+      "slug": "natric",
+      "wrb_code": "na",
+      "qualifier_type": "principal",
+      "description": "Having a natric horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 48,
+    "fields": {
+      "name": "Nitic",
+      "slug": "nitic",
+      "wrb_code": "ni",
+      "qualifier_type": "principal",
+      "description": "Having a nitic horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 49,
+    "fields": {
+      "name": "Nudilithic",
+      "slug": "nudilithic",
+      "wrb_code": "nu",
+      "qualifier_type": "principal",
+      "description": "Having continuous rock at the soil surface or within 5 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 50,
+    "fields": {
+      "name": "Ochric",
+      "slug": "ochric",
+      "wrb_code": "oh",
+      "qualifier_type": "principal",
+      "description": "Having an ochric horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 51,
+    "fields": {
+      "name": "Ornithic",
+      "slug": "ornithic",
+      "wrb_code": "or",
+      "qualifier_type": "principal",
+      "description": "Having ≥40% (by volume, by weighted average) ornithogenic material in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 52,
+    "fields": {
+      "name": "Oxyaquic",
+      "slug": "oxyaquic",
+      "wrb_code": "oa",
+      "qualifier_type": "principal",
+      "description": "Having groundwater between 25 and 100 cm depth for ≥20 consecutive days in most years."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 53,
+    "fields": {
+      "name": "Pachic",
+      "slug": "pachic",
+      "wrb_code": "pa",
+      "qualifier_type": "principal",
+      "description": "Having a mollic or umbric horizon ≥50 cm thick."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 54,
+    "fields": {
+      "name": "Pellic",
+      "slug": "pellic",
+      "wrb_code": "pe",
+      "qualifier_type": "principal",
+      "description": "Having ≥60% clay in a layer ≥30 cm thick within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 55,
+    "fields": {
+      "name": "Petrocalcic",
+      "slug": "petrocalcic",
+      "wrb_code": "pc",
+      "qualifier_type": "principal",
+      "description": "Having a petrocalcic horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 56,
+    "fields": {
+      "name": "Petroduric",
+      "slug": "petroduric",
+      "wrb_code": "pd",
+      "qualifier_type": "principal",
+      "description": "Having a petroduric horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 57,
+    "fields": {
+      "name": "Petrogypsic",
+      "slug": "petrogypsic",
+      "wrb_code": "pg",
+      "qualifier_type": "principal",
+      "description": "Having a petrogypsic horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 58,
+    "fields": {
+      "name": "Petrosalic",
+      "slug": "petrosalic",
+      "wrb_code": "ps",
+      "qualifier_type": "principal",
+      "description": "Having a petrosalic horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 59,
+    "fields": {
+      "name": "Pisoplinthic",
+      "slug": "pisoplinthic",
+      "wrb_code": "pp",
+      "qualifier_type": "principal",
+      "description": "Having ≥40% (by volume) pisoliths in a layer ≥15 cm thick within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 60,
+    "fields": {
+      "name": "Plaggic",
+      "slug": "plaggic",
+      "wrb_code": "pl",
+      "qualifier_type": "principal",
+      "description": "Having a plaggic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 61,
+    "fields": {
+      "name": "Plinthic",
+      "slug": "plinthic",
+      "wrb_code": "pt",
+      "qualifier_type": "principal",
+      "description": "Having a plinthic horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 62,
+    "fields": {
+      "name": "Posic",
+      "slug": "posic",
+      "wrb_code": "po",
+      "qualifier_type": "principal",
+      "description": "Having a positive charge (ΔpH ≥ 0.1) in a layer ≥30 cm thick within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 63,
+    "fields": {
+      "name": "Protic",
+      "slug": "protic",
+      "wrb_code": "pr",
+      "qualifier_type": "principal",
+      "description": "Having ≥35% (by volume, by weighted average) organic soil material in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 64,
+    "fields": {
+      "name": "Puffic",
+      "slug": "puffic",
+      "wrb_code": "pu",
+      "qualifier_type": "principal",
+      "description": "Having a bulk density of ≤0.9 g cm-3 in a layer ≥30 cm thick within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 65,
+    "fields": {
+      "name": "Reductic",
+      "slug": "reductic",
+      "wrb_code": "rd",
+      "qualifier_type": "principal",
+      "description": "Having reducing conditions in 25% or more of the soil volume within 100 cm for ≥1 month."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 66,
+    "fields": {
+      "name": "Rendzic",
+      "slug": "rendzic",
+      "wrb_code": "rz",
+      "qualifier_type": "principal",
+      "description": "Having a mollic horizon that contains ≥40% CaCO3 equivalent."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 67,
+    "fields": {
+      "name": "Rheic",
+      "slug": "rheic",
+      "wrb_code": "rh",
+      "qualifier_type": "principal",
+      "description": "Having a fluid consistency in a layer ≥20 cm thick within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 68,
+    "fields": {
+      "name": "Rhodic",
+      "slug": "rhodic",
+      "wrb_code": "ro",
+      "qualifier_type": "principal",
+      "description": "Having a subsurface horizon with a Munsell hue of 2.5YR or redder within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 69,
+    "fields": {
+      "name": "Rubic",
+      "slug": "rubic",
+      "wrb_code": "ru",
+      "qualifier_type": "principal",
+      "description": "Having a subsurface horizon with a Munsell hue of 7.5YR or yellower within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 70,
+    "fields": {
+      "name": "Rustic",
+      "slug": "rustic",
+      "wrb_code": "rs",
+      "qualifier_type": "principal",
+      "description": "Having ≥10% (by volume, by weighted average) artefacts in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 71,
+    "fields": {
+      "name": "Salic",
+      "slug": "salic",
+      "wrb_code": "sz",
+      "qualifier_type": "principal",
+      "description": "Having a salic horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 72,
+    "fields": {
+      "name": "Sapric",
+      "slug": "sapric",
+      "wrb_code": "sa",
+      "qualifier_type": "principal",
+      "description": "Having ≥60% (by volume) sapric material in organic layers within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 73,
+    "fields": {
+      "name": "Silandic",
+      "slug": "silandic",
+      "wrb_code": "sl",
+      "qualifier_type": "principal",
+      "description": "Having andic properties and a silt/clay ratio of ≥0.6 in the fine earth."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 74,
+    "fields": {
+      "name": "Siltic",
+      "slug": "siltic",
+      "wrb_code": "si",
+      "qualifier_type": "principal",
+      "description": "Having ≥50% silt in a layer ≥30 cm thick within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 75,
+    "fields": {
+      "name": "Skeletic",
+      "slug": "skeletic",
+      "wrb_code": "sk",
+      "qualifier_type": "principal",
+      "description": "Having ≥40% (by volume, by weighted average) coarse fragments in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 76,
+    "fields": {
+      "name": "Sodic",
+      "slug": "sodic",
+      "wrb_code": "so",
+      "qualifier_type": "principal",
+      "description": "Having ≥6% exchangeable Na in the major part of 20-100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 77,
+    "fields": {
+      "name": "Solimovic",
+      "slug": "solimovic",
+      "wrb_code": "sm",
+      "qualifier_type": "principal",
+      "description": "Having a solimovic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 78,
+    "fields": {
+      "name": "Spodic",
+      "slug": "spodic",
+      "wrb_code": "sd",
+      "qualifier_type": "principal",
+      "description": "Having a spodic horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 79,
+    "fields": {
+      "name": "Stagnic",
+      "slug": "stagnic",
+      "wrb_code": "st",
+      "qualifier_type": "principal",
+      "description": "Having stagnic properties starting within 50 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 80,
+    "fields": {
+      "name": "Subaquatic",
+      "slug": "subaquatic",
+      "wrb_code": "sq",
+      "qualifier_type": "principal",
+      "description": "Being permanently submerged under water not deeper than 200 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 81,
+    "fields": {
+      "name": "Sulfidic",
+      "slug": "sulfidic",
+      "wrb_code": "sf",
+      "qualifier_type": "principal",
+      "description": "Having a sulfidic horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 82,
+    "fields": {
+      "name": "Takyric",
+      "slug": "takyric",
+      "wrb_code": "ty",
+      "qualifier_type": "principal",
+      "description": "Having a takyric horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 83,
+    "fields": {
+      "name": "Technic",
+      "slug": "technic",
+      "wrb_code": "te",
+      "qualifier_type": "principal",
+      "description": "Having ≥10% (by volume, by weighted average) technic hard material in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 84,
+    "fields": {
+      "name": "Tephric",
+      "slug": "tephric",
+      "wrb_code": "tf",
+      "qualifier_type": "principal",
+      "description": "Having ≥30% (by volume, by weighted average) tephra in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 85,
+    "fields": {
+      "name": "Terric",
+      "slug": "terric",
+      "wrb_code": "tr",
+      "qualifier_type": "principal",
+      "description": "Having a terric horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 86,
+    "fields": {
+      "name": "Thionic",
+      "slug": "thionic",
+      "wrb_code": "ti",
+      "qualifier_type": "principal",
+      "description": "Having a thionic horizon starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 87,
+    "fields": {
+      "name": "Thixotropic",
+      "slug": "thixotropic",
+      "wrb_code": "tx",
+      "qualifier_type": "principal",
+      "description": "Having thixotropic properties in a layer ≥25 cm thick within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 88,
+    "fields": {
+      "name": "Tidalic",
+      "slug": "tidalic",
+      "wrb_code": "td",
+      "qualifier_type": "principal",
+      "description": "Being flooded by tidewater but not covered by water at mean low tide."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 89,
+    "fields": {
+      "name": "Tonguic",
+      "slug": "tonguic",
+      "wrb_code": "to",
+      "qualifier_type": "principal",
+      "description": "Having tonguing of an albic into an argic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 90,
+    "fields": {
+      "name": "Toxic",
+      "slug": "toxic",
+      "wrb_code": "tc",
+      "qualifier_type": "principal",
+      "description": "Having toxic concentrations of organic or inorganic substances."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 91,
+    "fields": {
+      "name": "Transportic",
+      "slug": "transportic",
+      "wrb_code": "tp",
+      "qualifier_type": "principal",
+      "description": "Having been moved by human activity with intact soil structure."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 92,
+    "fields": {
+      "name": "Turbic",
+      "slug": "turbic",
+      "wrb_code": "tu",
+      "qualifier_type": "principal",
+      "description": "Having cryoturbation features within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 93,
+    "fields": {
+      "name": "Umbric",
+      "slug": "umbric",
+      "wrb_code": "um",
+      "qualifier_type": "principal",
+      "description": "Having an umbric horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 94,
+    "fields": {
+      "name": "Urbic",
+      "slug": "urbic",
+      "wrb_code": "ub",
+      "qualifier_type": "principal",
+      "description": "Having ≥20% (by volume, by weighted average) artefacts in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 95,
+    "fields": {
+      "name": "Uterquic",
+      "slug": "uterquic",
+      "wrb_code": "uq",
+      "qualifier_type": "principal",
+      "description": "Having groundwater within 50 cm of the soil surface and reducing conditions."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 96,
+    "fields": {
+      "name": "Vermic",
+      "slug": "vermic",
+      "wrb_code": "vm",
+      "qualifier_type": "principal",
+      "description": "Having ≥50% (by volume) earthworm channels and casts in a layer ≥20 cm thick."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 97,
+    "fields": {
+      "name": "Vertic",
+      "slug": "vertic",
+      "wrb_code": "vr",
+      "qualifier_type": "principal",
+      "description": "Having vertic properties starting within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 98,
+    "fields": {
+      "name": "Vitric",
+      "slug": "vitric",
+      "wrb_code": "vi",
+      "qualifier_type": "principal",
+      "description": "Having ≥5% (by grain count) volcanic glass in the 0.02-2.0 mm fraction."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 99,
+    "fields": {
+      "name": "Xanthic",
+      "slug": "xanthic",
+      "wrb_code": "xa",
+      "qualifier_type": "principal",
+      "description": "Having a subsurface horizon with a Munsell hue of 7.5YR or yellower within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 100,
+    "fields": {
+      "name": "Yermic",
+      "slug": "yermic",
+      "wrb_code": "ye",
+      "qualifier_type": "principal",
+      "description": "Having a yermic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 101,
+    "fields": {
+      "name": "Acroxic",
+      "slug": "acroxic",
+      "wrb_code": "ao",
+      "qualifier_type": "supplementary",
+      "description": "Having an acroxic horizon within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 102,
+    "fields": {
+      "name": "Aeolic",
+      "slug": "aeolic",
+      "wrb_code": "ae",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥30% aeolian material in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 103,
+    "fields": {
+      "name": "Alcalic",
+      "slug": "alcalic",
+      "wrb_code": "ak",
+      "qualifier_type": "supplementary",
+      "description": "Having a pH (H2O) of ≥8.5 throughout the major part of 20-100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 104,
+    "fields": {
+      "name": "Aridic",
+      "slug": "aridic",
+      "wrb_code": "ad",
+      "qualifier_type": "supplementary",
+      "description": "Having an aridic moisture regime."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 105,
+    "fields": {
+      "name": "Brunic",
+      "slug": "brunic",
+      "wrb_code": "bn",
+      "qualifier_type": "supplementary",
+      "description": "Having a Munsell hue of 7.5YR or redder and a chroma of ≥4 in the major part of 20-50 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 106,
+    "fields": {
+      "name": "Calcaric",
+      "slug": "calcaric",
+      "wrb_code": "cc",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥2% CaCO3 equivalent in the fine earth in some layer within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 107,
+    "fields": {
+      "name": "Carbonic",
+      "slug": "carbonic",
+      "wrb_code": "cb",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥0.2% organic carbon in the fine earth in some layer within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 108,
+    "fields": {
+      "name": "Colluvic",
+      "slug": "colluvic",
+      "wrb_code": "co",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥30% colluvial material in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 109,
+    "fields": {
+      "name": "Dolomitic",
+      "slug": "dolomitic",
+      "wrb_code": "do",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥5% dolomite in the fine earth in some layer within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 110,
+    "fields": {
+      "name": "Drainic",
+      "slug": "drainic",
+      "wrb_code": "dr",
+      "qualifier_type": "supplementary",
+      "description": "Having been drained by artificial means."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 111,
+    "fields": {
+      "name": "Ekranic",
+      "slug": "ekranic",
+      "wrb_code": "ek",
+      "qualifier_type": "supplementary",
+      "description": "Having an impermeable layer within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 112,
+    "fields": {
+      "name": "Escalic",
+      "slug": "escalic",
+      "wrb_code": "es",
+      "qualifier_type": "supplementary",
+      "description": "Having an ESP of 6-15 in the major part of 20-100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 113,
+    "fields": {
+      "name": "Fibric",
+      "slug": "fibric",
+      "wrb_code": "fi",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥60% fibric material in organic layers within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 114,
+    "fields": {
+      "name": "Folic",
+      "slug": "folic",
+      "wrb_code": "fo",
+      "qualifier_type": "supplementary",
+      "description": "Having a folic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 115,
+    "fields": {
+      "name": "Garbic",
+      "slug": "garbic",
+      "wrb_code": "ga",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥20% organic waste in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 116,
+    "fields": {
+      "name": "Glacic",
+      "slug": "glacic",
+      "wrb_code": "gc",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥30% glacial material in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 117,
+    "fields": {
+      "name": "Glossic",
+      "slug": "glossic",
+      "wrb_code": "gs",
+      "qualifier_type": "supplementary",
+      "description": "Having glossic properties in an argic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 118,
+    "fields": {
+      "name": "Greyic",
+      "slug": "greyic",
+      "wrb_code": "gr",
+      "qualifier_type": "supplementary",
+      "description": "Having a Munsell chroma of ≤3 in the major part of 20-100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 119,
+    "fields": {
+      "name": "Hemic",
+      "slug": "hemic",
+      "wrb_code": "he",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥60% hemic material in organic layers within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 120,
+    "fields": {
+      "name": "Hyperdystric",
+      "slug": "hyperdystric",
+      "wrb_code": "qd",
+      "qualifier_type": "supplementary",
+      "description": "Having a base saturation of <20% in the major part of 20-100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 121,
+    "fields": {
+      "name": "Hyperochric",
+      "slug": "hyperochric",
+      "wrb_code": "qo",
+      "qualifier_type": "supplementary",
+      "description": "Having a Munsell value of ≥6 and chroma of ≤3 in the upper 20 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 122,
+    "fields": {
+      "name": "Hyperspodic",
+      "slug": "hyperspodic",
+      "wrb_code": "qp",
+      "qualifier_type": "supplementary",
+      "description": "Having a spodic horizon with ≥5% Al+Fe extracted by oxalate."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 123,
+    "fields": {
+      "name": "Immissic",
+      "slug": "immissic",
+      "wrb_code": "im",
+      "qualifier_type": "supplementary",
+      "description": "Having been contaminated by human activity."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 124,
+    "fields": {
+      "name": "Lamellic",
+      "slug": "lamellic",
+      "wrb_code": "ll",
+      "qualifier_type": "supplementary",
+      "description": "Having lamellae within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 125,
+    "fields": {
+      "name": "Limnic",
+      "slug": "limnic",
+      "wrb_code": "ln",
+      "qualifier_type": "supplementary",
+      "description": "Having limnic material within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 126,
+    "fields": {
+      "name": "Linic",
+      "slug": "linic",
+      "wrb_code": "lc",
+      "qualifier_type": "supplementary",
+      "description": "Having a continuous layer of technic hard material within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 127,
+    "fields": {
+      "name": "Loamic",
+      "slug": "loamic",
+      "wrb_code": "lo",
+      "qualifier_type": "supplementary",
+      "description": "Having a loamy texture in the major part of 20-100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 128,
+    "fields": {
+      "name": "Manganic",
+      "slug": "manganic",
+      "wrb_code": "mn",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥5% Mn nodules or concretions in some layer within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 129,
+    "fields": {
+      "name": "Nechic",
+      "slug": "nechic",
+      "wrb_code": "nc",
+      "qualifier_type": "supplementary",
+      "description": "Having a water table at >150 cm depth throughout the year."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 130,
+    "fields": {
+      "name": "Neocambic",
+      "slug": "neocambic",
+      "wrb_code": "nw",
+      "qualifier_type": "supplementary",
+      "description": "Having a cambic horizon formed in recent deposits."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 131,
+    "fields": {
+      "name": "Novic",
+      "slug": "novic",
+      "wrb_code": "nv",
+      "qualifier_type": "supplementary",
+      "description": "Having been formed or substantially modified within the last 500 years."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 132,
+    "fields": {
+      "name": "Ombric",
+      "slug": "ombric",
+      "wrb_code": "om",
+      "qualifier_type": "supplementary",
+      "description": "Having received water and nutrients only from precipitation."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 133,
+    "fields": {
+      "name": "Oxic",
+      "slug": "oxic",
+      "wrb_code": "ox",
+      "qualifier_type": "supplementary",
+      "description": "Having an oxic horizon within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 134,
+    "fields": {
+      "name": "Panpaic",
+      "slug": "panpaic",
+      "wrb_code": "pp",
+      "qualifier_type": "supplementary",
+      "description": "Having a pan within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 135,
+    "fields": {
+      "name": "Peloic",
+      "slug": "peloic",
+      "wrb_code": "pl",
+      "qualifier_type": "supplementary",
+      "description": "Having vertic properties but not meeting the requirements for Vertisols."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 136,
+    "fields": {
+      "name": "Petric",
+      "slug": "petric",
+      "wrb_code": "pt",
+      "qualifier_type": "supplementary",
+      "description": "Having continuous rock within 10 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 137,
+    "fields": {
+      "name": "Placic",
+      "slug": "placic",
+      "wrb_code": "pi",
+      "qualifier_type": "supplementary",
+      "description": "Having a placic horizon within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 138,
+    "fields": {
+      "name": "Protovertic",
+      "slug": "protovertic",
+      "wrb_code": "pv",
+      "qualifier_type": "supplementary",
+      "description": "Having some vertic properties but not meeting full vertic requirements."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 139,
+    "fields": {
+      "name": "Raptic",
+      "slug": "raptic",
+      "wrb_code": "ra",
+      "qualifier_type": "supplementary",
+      "description": "Having a broken or disrupted horizon sequence."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 140,
+    "fields": {
+      "name": "Reductaquic",
+      "slug": "reductaquic",
+      "wrb_code": "rq",
+      "qualifier_type": "supplementary",
+      "description": "Having reducing conditions and groundwater within 100 cm for ≥1 month."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 141,
+    "fields": {
+      "name": "Relocatic",
+      "slug": "relocatic",
+      "wrb_code": "rl",
+      "qualifier_type": "supplementary",
+      "description": "Having been moved by human activity without preserving soil structure."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 142,
+    "fields": {
+      "name": "Rockic",
+      "slug": "rockic",
+      "wrb_code": "rk",
+      "qualifier_type": "supplementary",
+      "description": "Having continuous rock within 25 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 143,
+    "fields": {
+      "name": "Ruptic",
+      "slug": "ruptic",
+      "wrb_code": "rp",
+      "qualifier_type": "supplementary",
+      "description": "Having a broken or disrupted argic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 144,
+    "fields": {
+      "name": "Sideralic",
+      "slug": "sideralic",
+      "wrb_code": "sr",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥5% Fe nodules or concretions in some layer within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 145,
+    "fields": {
+      "name": "Someric",
+      "slug": "someric",
+      "wrb_code": "se",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥1% organic carbon in the major part of 20-100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 146,
+    "fields": {
+      "name": "Spolic",
+      "slug": "spolic",
+      "wrb_code": "sp",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥20% industrial waste in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 147,
+    "fields": {
+      "name": "Subhydric",
+      "slug": "subhydric",
+      "wrb_code": "sh",
+      "qualifier_type": "supplementary",
+      "description": "Having groundwater at 40-100 cm depth for ≥11 months per year."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 148,
+    "fields": {
+      "name": "Supraglacic",
+      "slug": "supraglacic",
+      "wrb_code": "sg",
+      "qualifier_type": "supplementary",
+      "description": "Having formed on top of glacier ice."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 149,
+    "fields": {
+      "name": "Thalic",
+      "slug": "thalic",
+      "wrb_code": "th",
+      "qualifier_type": "supplementary",
+      "description": "Having a mean annual soil temperature of ≥22°C."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 150,
+    "fields": {
+      "name": "Tonguic",
+      "slug": "tonguic-supp",
+      "wrb_code": "tg",
+      "qualifier_type": "supplementary",
+      "description": "Having tonguing of one horizon into another."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 151,
+    "fields": {
+      "name": "Turbatic",
+      "slug": "turbatic",
+      "wrb_code": "tb",
+      "qualifier_type": "supplementary",
+      "description": "Having been mixed by soil fauna activity."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 152,
+    "fields": {
+      "name": "Ultic",
+      "slug": "ultic",
+      "wrb_code": "ul",
+      "qualifier_type": "supplementary",
+      "description": "Having a base saturation of <50% in the major part of an argic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 153,
+    "fields": {
+      "name": "Vetic",
+      "slug": "vetic",
+      "wrb_code": "vt",
+      "qualifier_type": "supplementary",
+      "description": "Having a very low activity clay in an argic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 154,
+    "fields": {
+      "name": "Xeric",
+      "slug": "xeric",
+      "wrb_code": "xe",
+      "qualifier_type": "supplementary",
+      "description": "Having a xeric moisture regime."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 155,
+    "fields": {
+      "name": "Zonal",
+      "slug": "zonal",
+      "wrb_code": "zn",
+      "qualifier_type": "supplementary",
+      "description": "Having developed under the influence of climate and vegetation."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 156,
+    "fields": {
+      "name": "Abyssal",
+      "slug": "abyssal",
+      "wrb_code": "ab",
+      "qualifier_type": "supplementary",
+      "description": "Having formed at great depths below sea level."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 157,
+    "fields": {
+      "name": "Acric",
+      "slug": "acric",
+      "wrb_code": "ac",
+      "qualifier_type": "supplementary",
+      "description": "Having a pH (KCl) of less than 5.0 in the major part of 20-100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 158,
+    "fields": {
+      "name": "Aeolic",
+      "slug": "aeolic-alt",
+      "wrb_code": "ao",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥30% wind-blown material in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 159,
+    "fields": {
+      "name": "Albandic",
+      "slug": "albandic",
+      "wrb_code": "aa",
+      "qualifier_type": "supplementary",
+      "description": "Having andic properties and an albic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 160,
+    "fields": {
+      "name": "Aluandic",
+      "slug": "aluandic",
+      "wrb_code": "au",
+      "qualifier_type": "supplementary",
+      "description": "Having andic properties dominated by Al-humus complexes."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 161,
+    "fields": {
+      "name": "Anthraquic",
+      "slug": "anthraquic",
+      "wrb_code": "aq",
+      "qualifier_type": "supplementary",
+      "description": "Having anthropogenic aquic conditions."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 162,
+    "fields": {
+      "name": "Archaic",
+      "slug": "archaic",
+      "wrb_code": "ar",
+      "qualifier_type": "supplementary",
+      "description": "Having formed under past climatic conditions."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 163,
+    "fields": {
+      "name": "Arenosolic",
+      "slug": "arenosolic",
+      "wrb_code": "as",
+      "qualifier_type": "supplementary",
+      "description": "Having properties intermediate between Arenosols and other RSGs."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 164,
+    "fields": {
+      "name": "Argisolic",
+      "slug": "argisolic",
+      "wrb_code": "ag",
+      "qualifier_type": "supplementary",
+      "description": "Having properties intermediate between soils with argic horizons."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 165,
+    "fields": {
+      "name": "Biogenic",
+      "slug": "biogenic",
+      "wrb_code": "bg",
+      "qualifier_type": "supplementary",
+      "description": "Having been significantly modified by biological activity."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 166,
+    "fields": {
+      "name": "Biosequic",
+      "slug": "biosequic",
+      "wrb_code": "bs",
+      "qualifier_type": "supplementary",
+      "description": "Having formed in a biosequence."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 167,
+    "fields": {
+      "name": "Calcaric",
+      "slug": "calcaric-alt",
+      "wrb_code": "ca",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥2% CaCO3 equivalent in some layer within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 168,
+    "fields": {
+      "name": "Cambisolic",
+      "slug": "cambisolic",
+      "wrb_code": "cs",
+      "qualifier_type": "supplementary",
+      "description": "Having properties intermediate between Cambisols and other RSGs."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 169,
+    "fields": {
+      "name": "Chernic",
+      "slug": "chernic",
+      "wrb_code": "ch",
+      "qualifier_type": "supplementary",
+      "description": "Having properties similar to Chernozems."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 170,
+    "fields": {
+      "name": "Clayenic",
+      "slug": "clayenic",
+      "wrb_code": "cy",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥35% clay in a layer ≥30 cm thick within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 171,
+    "fields": {
+      "name": "Cryic",
+      "slug": "cryic",
+      "wrb_code": "cr",
+      "qualifier_type": "supplementary",
+      "description": "Having a mean annual soil temperature of <8°C."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 172,
+    "fields": {
+      "name": "Cumulic",
+      "slug": "cumulic",
+      "wrb_code": "cu",
+      "qualifier_type": "supplementary",
+      "description": "Having formed by accumulation of material."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 173,
+    "fields": {
+      "name": "Duric",
+      "slug": "duric",
+      "wrb_code": "du",
+      "qualifier_type": "supplementary",
+      "description": "Having a duric horizon within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 174,
+    "fields": {
+      "name": "Endosalic",
+      "slug": "endosalic",
+      "wrb_code": "es",
+      "qualifier_type": "supplementary",
+      "description": "Having salic properties starting between 50 and 100 cm from the surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 175,
+    "fields": {
+      "name": "Episalic",
+      "slug": "episalic",
+      "wrb_code": "ep",
+      "qualifier_type": "supplementary",
+      "description": "Having salic properties starting within 50 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 176,
+    "fields": {
+      "name": "Ferralic",
+      "slug": "ferralic",
+      "wrb_code": "fe",
+      "qualifier_type": "supplementary",
+      "description": "Having properties similar to Ferralsols."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 177,
+    "fields": {
+      "name": "Fluvic",
+      "slug": "fluvic-alt",
+      "wrb_code": "fv",
+      "qualifier_type": "supplementary",
+      "description": "Having fluvic material within 25 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 178,
+    "fields": {
+      "name": "Fragic",
+      "slug": "fragic",
+      "wrb_code": "fg",
+      "qualifier_type": "supplementary",
+      "description": "Having a fragic horizon within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 179,
+    "fields": {
+      "name": "Fulvic",
+      "slug": "fulvic",
+      "wrb_code": "fu",
+      "qualifier_type": "supplementary",
+      "description": "Having fulvic acid properties in organic matter."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 180,
+    "fields": {
+      "name": "Gelic",
+      "slug": "gelic",
+      "wrb_code": "ge",
+      "qualifier_type": "supplementary",
+      "description": "Having a mean annual soil temperature of ≤1°C."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 181,
+    "fields": {
+      "name": "Gilgaic",
+      "slug": "gilgaic",
+      "wrb_code": "gg",
+      "qualifier_type": "supplementary",
+      "description": "Having gilgai microrelief."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 182,
+    "fields": {
+      "name": "Gleyic",
+      "slug": "gleyic-alt",
+      "wrb_code": "gy",
+      "qualifier_type": "supplementary",
+      "description": "Having gleyic properties within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 183,
+    "fields": {
+      "name": "Gypsic",
+      "slug": "gypsic-alt",
+      "wrb_code": "gp",
+      "qualifier_type": "supplementary",
+      "description": "Having a gypsic horizon within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 184,
+    "fields": {
+      "name": "Haplic",
+      "slug": "haplic-alt",
+      "wrb_code": "hp",
+      "qualifier_type": "supplementary",
+      "description": "Having typical expression of certain features."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 185,
+    "fields": {
+      "name": "Histosolic",
+      "slug": "histosolic",
+      "wrb_code": "hs",
+      "qualifier_type": "supplementary",
+      "description": "Having properties intermediate between Histosols and other RSGs."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 186,
+    "fields": {
+      "name": "Hortic",
+      "slug": "hortic-alt",
+      "wrb_code": "ho",
+      "qualifier_type": "supplementary",
+      "description": "Having a hortic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 187,
+    "fields": {
+      "name": "Humic",
+      "slug": "humic-alt",
+      "wrb_code": "hm",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥1% organic carbon in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 188,
+    "fields": {
+      "name": "Hypocalcic",
+      "slug": "hypocalcic",
+      "wrb_code": "hc",
+      "qualifier_type": "supplementary",
+      "description": "Having <15% CaCO3 equivalent in the calcic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 189,
+    "fields": {
+      "name": "Hypogypsic",
+      "slug": "hypogypsic",
+      "wrb_code": "hg",
+      "qualifier_type": "supplementary",
+      "description": "Having <15% gypsum in the gypsic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 190,
+    "fields": {
+      "name": "Hyposodic",
+      "slug": "hyposodic",
+      "wrb_code": "hy",
+      "qualifier_type": "supplementary",
+      "description": "Having an ESP of 6-15 in some layer within 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 191,
+    "fields": {
+      "name": "Isolatic",
+      "slug": "isolatic",
+      "wrb_code": "is",
+      "qualifier_type": "supplementary",
+      "description": "Having formed in isolation from surrounding soils."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 192,
+    "fields": {
+      "name": "Kaolinic",
+      "slug": "kaolinic",
+      "wrb_code": "ka",
+      "qualifier_type": "supplementary",
+      "description": "Having kaolinite as the dominant clay mineral."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 193,
+    "fields": {
+      "name": "Lacustric",
+      "slug": "lacustric",
+      "wrb_code": "la",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥30% lacustrine material in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 194,
+    "fields": {
+      "name": "Leptic",
+      "slug": "leptic-alt",
+      "wrb_code": "lp",
+      "qualifier_type": "supplementary",
+      "description": "Having continuous rock within 100 cm of the soil surface."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 195,
+    "fields": {
+      "name": "Luvic",
+      "slug": "luvic-alt",
+      "wrb_code": "lu",
+      "qualifier_type": "supplementary",
+      "description": "Having an argic horizon with high base saturation."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 196,
+    "fields": {
+      "name": "Magnesic",
+      "slug": "magnesic-alt",
+      "wrb_code": "ma",
+      "qualifier_type": "supplementary",
+      "description": "Having high exchangeable Mg content."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 197,
+    "fields": {
+      "name": "Marine",
+      "slug": "marine",
+      "wrb_code": "mr",
+      "qualifier_type": "supplementary",
+      "description": "Having ≥30% marine material in the upper 100 cm."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 198,
+    "fields": {
+      "name": "Mesic",
+      "slug": "mesic",
+      "wrb_code": "ms",
+      "qualifier_type": "supplementary",
+      "description": "Having a mean annual soil temperature of 8-15°C."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 199,
+    "fields": {
+      "name": "Mollic",
+      "slug": "mollic-alt",
+      "wrb_code": "ml",
+      "qualifier_type": "supplementary",
+      "description": "Having a mollic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 200,
+    "fields": {
+      "name": "Nitisolic",
+      "slug": "nitisolic",
+      "wrb_code": "ns",
+      "qualifier_type": "supplementary",
+      "description": "Having properties intermediate between Nitisols and other RSGs."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 201,
+    "fields": {
+      "name": "Ochric",
+      "slug": "ochric-alt",
+      "wrb_code": "oc",
+      "qualifier_type": "supplementary",
+      "description": "Having an ochric horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbqualifier",
+    "pk": 202,
+    "fields": {
+      "name": "Podzolic",
+      "slug": "podzolic",
+      "wrb_code": "pz",
+      "qualifier_type": "supplementary",
+      "description": "Having properties intermediate between Podzols and other RSGs."
+    }
+  }
+]

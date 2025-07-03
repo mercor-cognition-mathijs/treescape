@@ -1,0 +1,354 @@
+[
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 1,
+    "fields": {
+      "name": "Histosol",
+      "slug": "histosol",
+      "wrb_code": "HS",
+      "category": "thick_organic",
+      "description": "Soils with thick organic layers, typically found in wetlands and peat bogs."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 2,
+    "fields": {
+      "name": "Anthrosol",
+      "slug": "anthrosol",
+      "wrb_code": "AT",
+      "category": "human_influence",
+      "description": "Soils with strong human influence through long-term cultivation or waste disposal."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 3,
+    "fields": {
+      "name": "Technosol",
+      "slug": "technosol",
+      "wrb_code": "TC",
+      "category": "human_influence",
+      "description": "Soils containing significant amounts of technical artifacts or sealed by technical hard rock."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 4,
+    "fields": {
+      "name": "Cryosol",
+      "slug": "cryosol",
+      "wrb_code": "CR",
+      "category": "root_limitations",
+      "description": "Soils with permafrost within 100 cm of the surface, found in polar and high mountain regions."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 5,
+    "fields": {
+      "name": "Leptosol",
+      "slug": "leptosol",
+      "wrb_code": "LP",
+      "category": "root_limitations",
+      "description": "Very shallow soils over hard rock or highly calcareous material, with limited rooting depth."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 6,
+    "fields": {
+      "name": "Solonetz",
+      "slug": "solonetz",
+      "wrb_code": "SN",
+      "category": "root_limitations",
+      "description": "Soils with high sodium content causing structural problems and limiting root penetration."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 7,
+    "fields": {
+      "name": "Vertisol",
+      "slug": "vertisol",
+      "wrb_code": "VR",
+      "category": "root_limitations",
+      "description": "Clay-rich soils that shrink and swell significantly with moisture changes, creating cracks."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 8,
+    "fields": {
+      "name": "Solonchak",
+      "slug": "solonchak",
+      "wrb_code": "SC",
+      "category": "root_limitations",
+      "description": "Salt-affected soils with high salinity that limits plant growth and root development."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 9,
+    "fields": {
+      "name": "Gleysol",
+      "slug": "gleysol",
+      "wrb_code": "GL",
+      "category": "fe_al_chemistry",
+      "description": "Soils with groundwater influence showing redoximorphic features from alternating wet-dry conditions."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 10,
+    "fields": {
+      "name": "Andosol",
+      "slug": "andosol",
+      "wrb_code": "AN",
+      "category": "fe_al_chemistry",
+      "description": "Soils formed from volcanic ash with unique properties due to allophane and imogolite minerals."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 11,
+    "fields": {
+      "name": "Podzol",
+      "slug": "podzol",
+      "wrb_code": "PZ",
+      "category": "fe_al_chemistry",
+      "description": "Acidic soils with distinct eluvial and illuvial horizons formed by podzolization process."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 12,
+    "fields": {
+      "name": "Plinthosol",
+      "slug": "plinthosol",
+      "wrb_code": "PT",
+      "category": "fe_al_chemistry",
+      "description": "Soils with plinthite that hardens irreversibly upon repeated wetting and drying."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 13,
+    "fields": {
+      "name": "Planosol",
+      "slug": "planosol",
+      "wrb_code": "PL",
+      "category": "fe_al_chemistry",
+      "description": "Soils with an abrupt textural change and temporary water stagnation."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 14,
+    "fields": {
+      "name": "Stagnosol",
+      "slug": "stagnosol",
+      "wrb_code": "ST",
+      "category": "fe_al_chemistry",
+      "description": "Soils with seasonal water stagnation in the upper part of the profile."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 15,
+    "fields": {
+      "name": "Nitisol",
+      "slug": "nitisol",
+      "wrb_code": "NT",
+      "category": "fe_al_chemistry",
+      "description": "Deep, well-drained tropical soils with shiny ped faces and good structural stability."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 16,
+    "fields": {
+      "name": "Ferralsol",
+      "slug": "ferralsol",
+      "wrb_code": "FR",
+      "category": "fe_al_chemistry",
+      "description": "Highly weathered tropical soils dominated by iron and aluminum oxides with low fertility."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 17,
+    "fields": {
+      "name": "Chernozem",
+      "slug": "chernozem",
+      "wrb_code": "CH",
+      "category": "organic_accumulation",
+      "description": "Dark, fertile grassland soils with thick mollic horizon rich in organic matter."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 18,
+    "fields": {
+      "name": "Kastanozem",
+      "slug": "kastanozem",
+      "wrb_code": "KS",
+      "category": "organic_accumulation",
+      "description": "Brown grassland soils with mollic horizon and secondary carbonates, drier than Chernozems."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 19,
+    "fields": {
+      "name": "Phaeozem",
+      "slug": "phaeozem",
+      "wrb_code": "PH",
+      "category": "organic_accumulation",
+      "description": "Dark soils with mollic horizon formed under forest or mixed vegetation."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 20,
+    "fields": {
+      "name": "Umbrisol",
+      "slug": "umbrisol",
+      "wrb_code": "UM",
+      "category": "organic_accumulation",
+      "description": "Acidic soils with thick, dark umbric horizon rich in organic matter."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 21,
+    "fields": {
+      "name": "Durisol",
+      "slug": "durisol",
+      "wrb_code": "DU",
+      "category": "salt_accumulation",
+      "description": "Soils with cemented horizon (duripan) formed by silica accumulation."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 22,
+    "fields": {
+      "name": "Gypsisol",
+      "slug": "gypsisol",
+      "wrb_code": "GY",
+      "category": "salt_accumulation",
+      "description": "Soils with substantial accumulation of secondary gypsum in the profile."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 23,
+    "fields": {
+      "name": "Calcisol",
+      "slug": "calcisol",
+      "wrb_code": "CL",
+      "category": "salt_accumulation",
+      "description": "Soils with substantial accumulation of secondary carbonates in the profile."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 24,
+    "fields": {
+      "name": "Retisol",
+      "slug": "retisol",
+      "wrb_code": "RT",
+      "category": "clay_enriched",
+      "description": "Soils with clay illuviation and interfingering of albic into argic horizon."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 25,
+    "fields": {
+      "name": "Acrisol",
+      "slug": "acrisol",
+      "wrb_code": "AC",
+      "category": "clay_enriched",
+      "description": "Acidic soils with low base saturation and clay accumulation in the subsoil."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 26,
+    "fields": {
+      "name": "Lixisol",
+      "slug": "lixisol",
+      "wrb_code": "LX",
+      "category": "clay_enriched",
+      "description": "Soils with clay accumulation and higher base saturation than Acrisols."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 27,
+    "fields": {
+      "name": "Alisol",
+      "slug": "alisol",
+      "wrb_code": "AL",
+      "category": "clay_enriched",
+      "description": "Acidic soils with high aluminum saturation and clay accumulation."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 28,
+    "fields": {
+      "name": "Luvisol",
+      "slug": "luvisol",
+      "wrb_code": "LV",
+      "category": "clay_enriched",
+      "description": "Soils with clay illuviation and high base saturation, common in temperate regions."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 29,
+    "fields": {
+      "name": "Cambisol",
+      "slug": "cambisol",
+      "wrb_code": "CM",
+      "category": "little_differentiation",
+      "description": "Moderately developed soils with cambic horizon showing some alteration but little differentiation."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 30,
+    "fields": {
+      "name": "Fluvisol",
+      "slug": "fluvisol",
+      "wrb_code": "FL",
+      "category": "little_differentiation",
+      "description": "Young soils formed from recent alluvial deposits with little profile development."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 31,
+    "fields": {
+      "name": "Arenosol",
+      "slug": "arenosol",
+      "wrb_code": "AR",
+      "category": "little_differentiation",
+      "description": "Sandy soils with weak profile development due to coarse texture and low clay content."
+    }
+  },
+  {
+    "model": "species_data.wrbreferencegroup",
+    "pk": 32,
+    "fields": {
+      "name": "Regosol",
+      "slug": "regosol",
+      "wrb_code": "RG",
+      "category": "little_differentiation",
+      "description": "Weakly developed soils with little or no profile differentiation, often on steep slopes."
+    }
+  }
+]

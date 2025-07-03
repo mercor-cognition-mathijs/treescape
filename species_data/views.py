@@ -8,7 +8,8 @@ from .models import (
     GrowthHabit,
     HumanUse,
     EcologicalRole,
-    SoilPreference,
+    WRBReferenceGroup,
+    WRBQualifier,
     PropagationMethod,
     Source,
 )
@@ -21,7 +22,8 @@ from .serializers import (
     GrowthHabitSerializer,
     HumanUseSerializer,
     EcologicalRoleSerializer,
-    SoilPreferenceSerializer,
+    WRBReferenceGroupSerializer,
+    WRBQualifierSerializer,
     PropagationMethodSerializer,
     SourceSerializer,
 )
@@ -91,10 +93,16 @@ class EcologicalRoleViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = EcologicalRoleSerializer
 
 
-class SoilPreferenceViewSet(viewsets.ReadOnlyModelViewSet):
+class WRBReferenceGroupViewSet(viewsets.ReadOnlyModelViewSet):
     lookup_field = "slug"
-    queryset = SoilPreference.objects.all()
-    serializer_class = SoilPreferenceSerializer
+    queryset = WRBReferenceGroup.objects.all()
+    serializer_class = WRBReferenceGroupSerializer
+
+
+class WRBQualifierViewSet(viewsets.ReadOnlyModelViewSet):
+    lookup_field = "slug"
+    queryset = WRBQualifier.objects.all()
+    serializer_class = WRBQualifierSerializer
 
 
 class PropagationMethodViewSet(viewsets.ReadOnlyModelViewSet):

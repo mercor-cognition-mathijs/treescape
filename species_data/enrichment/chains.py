@@ -106,7 +106,10 @@ def get_enrichment_chain(config: EnrichmentConfig, data_model: Type[BaseModel]):
                     "shade-provision",
                 ],
             },
-            "soil_preferences": {"confidence": 0.2, "values": ["clayey", "sandy"]},
+            "wrb_reference_groups": {
+                "confidence": 0.2,
+                "values": ["cambisol", "arenosol"],
+            },
         }
     )
     parser = PydanticOutputParser(pydantic_object=data_model)

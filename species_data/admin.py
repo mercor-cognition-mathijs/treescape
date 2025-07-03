@@ -6,7 +6,8 @@ from .models import (
     ClimateZone,
     HumanUse,
     EcologicalRole,
-    SoilPreference,
+    WRBReferenceGroup,
+    WRBQualifier,
     PropagationMethod,
     # FamilyGrowthHabit,
     # GenusGrowthHabit,
@@ -22,7 +23,8 @@ from .models import (
     SpeciesEcologicalRole,
     # FamilySoilPreference,
     # GenusSoilPreference,
-    SpeciesSoilPreference,
+    SpeciesWRBReferenceGroup,
+    SpeciesWRBQualifier,
     SpeciesPropagationMethod,
     # FamilyProperties,
     # GenusProperties,
@@ -71,10 +73,18 @@ class EcologicalRoleAdmin(admin.ModelAdmin):
     search_fields = ("name",)
 
 
-@admin.register(SoilPreference)
-class SoilPreferenceAdmin(admin.ModelAdmin):
-    list_display = ("name", "description")
-    search_fields = ("name",)
+@admin.register(WRBReferenceGroup)
+class WRBReferenceGroupAdmin(admin.ModelAdmin):
+    list_display = ("name", "wrb_code", "category", "description")
+    list_filter = ("category",)
+    search_fields = ("name", "wrb_code")
+
+
+@admin.register(WRBQualifier)
+class WRBQualifierAdmin(admin.ModelAdmin):
+    list_display = ("name", "wrb_code", "qualifier_type", "description")
+    list_filter = ("qualifier_type",)
+    search_fields = ("name", "wrb_code")
 
 
 @admin.register(PropagationMethod)
@@ -144,8 +154,12 @@ class SpeciesEcologicalRoleInline(CategoryInlineBase):
 #     model = GenusSoilPreference
 
 
-class SpeciesSoilPreferenceInline(CategoryInlineBase):
-    model = SpeciesSoilPreference
+class SpeciesWRBReferenceGroupInline(CategoryInlineBase):
+    model = SpeciesWRBReferenceGroup
+
+
+class SpeciesWRBQualifierInline(CategoryInlineBase):
+    model = SpeciesWRBQualifier
 
 
 class SpeciesPropagationMethodInline(CategoryInlineBase):
@@ -209,7 +223,8 @@ class SpeciesPropertiesAdmin(admin.ModelAdmin):
         SpeciesClimateZoneInline,
         SpeciesHumanUseInline,
         SpeciesEcologicalRoleInline,
-        SpeciesSoilPreferenceInline,
+        SpeciesWRBReferenceGroupInline,
+        SpeciesWRBQualifierInline,
         SpeciesPropagationMethodInline,
     ]
     search_fields = (
@@ -227,7 +242,8 @@ class SpeciesPropertiesAdmin(admin.ModelAdmin):
         "climate_zones",
         "human_uses",
         "ecological_roles",
-        "soil_preferences",
+        "wrb_reference_groups",
+        "wrb_qualifiers",
         "propagation_methods",
     )
     list_select_related = ("species",)

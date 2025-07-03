@@ -183,38 +183,108 @@ class SpeciesEcologicalRole(CategorizedSpeciesPropertyThroughBase):
         unique_together = ("species", "ecological_role")
 
 
-class SoilPreference(CategorizedPlantPropertyBase):
-    """Soil texture, e.g. loamy, sandy, clayey etc."""
+class WRBReferenceGroup(CategorizedPlantPropertyBase):
+    """WRB Reference Soil Groups (RSGs) - the 32 primary soil classifications."""
 
-    description = models.TextField(
-        verbose_name=_("description"),
-        blank=True,
-        help_text=_("Optional description of soil preference."),
+    class WRBCategory(models.TextChoices):
+        THICK_ORGANIC = "thick_organic", _("Thick organic layers")
+        HUMAN_INFLUENCE = "human_influence", _("Strong human influence")
+        ROOT_LIMITATIONS = "root_limitations", _("Root growth limitations")
+        FE_AL_CHEMISTRY = "fe_al_chemistry", _("Fe/Al chemistry")
+        ORGANIC_ACCUMULATION = "organic_accumulation", _("Organic matter accumulation")
+        SALT_ACCUMULATION = "salt_accumulation", _("Salt/substance accumulation")
+        CLAY_ENRICHED = "clay_enriched", _("Clay-enriched subsoil")
+        LITTLE_DIFFERENTIATION = (
+            "little_differentiation",
+            _("Little profile differentiation"),
+        )
+
+    wrb_code = models.CharField(
+        _("WRB code"),
+        max_length=2,
+        unique=True,
+        help_text=_("Official WRB two-letter code (e.g., 'LV', 'CM')"),
+    )
+
+    category = models.CharField(
+        _("WRB category"),
+        max_length=30,
+        choices=WRBCategory.choices,
+        db_index=True,
     )
 
     class Meta(CategorizedPlantPropertyBase.Meta):
-        verbose_name = _("soil texture")
-        verbose_name_plural = _("soil textures")
+        verbose_name = _("WRB reference soil group")
+        verbose_name_plural = _("WRB reference soil groups")
+        ordering = ("category", "wrb_code")
 
 
-class SpeciesSoilPreferenceManager(models.Manager):
-    def get_by_natural_key(self, species_slug, soil_texture_slug):
+class SpeciesWRBReferenceGroupManager(models.Manager):
+    def get_by_natural_key(self, species_slug, wrb_reference_group_slug):
         return self.get(
-            species__species__slug=species_slug, soil_texture__slug=soil_texture_slug
+            species__species__slug=species_slug,
+            wrb_reference_group__slug=wrb_reference_group_slug,
         )
 
 
-class SpeciesSoilPreference(CategorizedSpeciesPropertyThroughBase):
+class SpeciesWRBReferenceGroup(CategorizedSpeciesPropertyThroughBase):
     species = models.ForeignKey("SpeciesProperties", on_delete=models.CASCADE)
-    soil_texture = models.ForeignKey(SoilPreference, on_delete=models.CASCADE)
+    wrb_reference_group = models.ForeignKey(WRBReferenceGroup, on_delete=models.CASCADE)
 
-    objects = SpeciesSoilPreferenceManager()
+    objects = SpeciesWRBReferenceGroupManager()
 
     def natural_key(self):
-        return (self.species.species.slug, self.soil_texture.slug)
+        return (self.species.species.slug, self.wrb_reference_group.slug)
 
     class Meta(CategorizedSpeciesPropertyThroughBase.Meta):
-        unique_together = ("species", "soil_texture")
+        unique_together = ("species", "wrb_reference_group")
+
+
+class WRBQualifier(CategorizedPlantPropertyBase):
+    """WRB Qualifiers - additional descriptors for soil classification."""
+
+    class QualifierType(models.TextChoices):
+        PRINCIPAL = "principal", _("Principal")
+        SUPPLEMENTARY = "supplementary", _("Supplementary")
+
+    qualifier_type = models.CharField(
+        _("qualifier type"),
+        max_length=15,
+        choices=QualifierType.choices,
+        db_index=True,
+    )
+
+    wrb_code = models.CharField(
+        _("WRB qualifier code"),
+        max_length=10,
+        unique=True,
+        help_text=_("Official WRB qualifier code"),
+    )
+
+    class Meta(CategorizedPlantPropertyBase.Meta):
+        verbose_name = _("WRB qualifier")
+        verbose_name_plural = _("WRB qualifiers")
+        ordering = ("qualifier_type", "wrb_code")
+
+
+class SpeciesWRBQualifierManager(models.Manager):
+    def get_by_natural_key(self, species_slug, wrb_qualifier_slug):
+        return self.get(
+            species__species__slug=species_slug, wrb_qualifier__slug=wrb_qualifier_slug
+        )
+
+
+class SpeciesWRBQualifier(CategorizedSpeciesPropertyThroughBase):
+    species = models.ForeignKey("SpeciesProperties", on_delete=models.CASCADE)
+    wrb_qualifier = models.ForeignKey(WRBQualifier, on_delete=models.CASCADE)
+
+    objects = SpeciesWRBQualifierManager()
+
+    def natural_key(self):
+        return (self.species.species.slug, self.wrb_qualifier.slug)
+
+    class Meta(CategorizedSpeciesPropertyThroughBase.Meta):
+        unique_together = ("species", "wrb_qualifier")
 
 
 class PropagationMethodManager(models.Manager):
